@@ -1,0 +1,78 @@
+:root {
+    --primary-color             : #000000;
+    --primary-text              : #FFFFFF;
+
+    --accent-color              : #48D100;
+    --accent-text               : #000000;
+
+    --text-dark                 : #000000;
+    --text-middle               : #4D5153;
+    --text-light                : #959798;
+    --text-white                : #FFFFFF;
+
+    --bg-dark                   : #000000;
+    --bg-middle                 : #E6E7E9;
+    --bg-light                  : #F6F6F6;
+    --bg-white                  : #FFFFFF;
+
+    --border-color              : #2C313F;
+
+    --font-st                   : 16px;
+    --font-xxs                  : 18px;
+    --font-xs                   : 20px;
+    --font-sm                   : 24px;
+    --font-md                   : 32px;
+    --font-lg                   : 40px;
+    --font-xl                   : 96px;
+    --font-xxl                  : 114px;
+    --font-max                  : 140px;
+
+    @media (max-width: 1660px) {
+        --font-xxs                  : 16px;
+        --font-xs                   : 18px;
+        --font-sm                   : 20px;
+        --font-md                   : 28px;
+        --font-lg                   : 32px;
+        --font-xl                   : 76px;
+        --font-xxl                  : 96px;
+        --font-max                  : 104px;
+    }
+
+    @media (max-width: 992px) {
+        --font-xl                   : 56px;
+        --font-xxl                  : 74px;
+    }
+
+    @media (max-width: 540px) {
+        --font-st                   : 10px;
+        --font-xxs                  : 10px;
+        --font-xs                   : 12px;
+        --font-sm                   : 14px;
+        --font-md                   : 16px;
+        --font-lg                   : 24px;
+        --font-xl                   : 32px;
+        --font-xxl                  : 39px;
+        --font-max                  : 48px;
+    }
+
+    --font-100                  : 'VisbyThin';
+    --font-300                  : 'VisbyLight';
+    --font-400                  : 'VisbyRegular';
+    --font-500                  : 'VisbyMedium';
+    --font-600                  : 'VisbySemibold';
+    --font-700                  : 'VisbyBold';
+    --font-800                  : 'VisbyExtrabold';
+    --font-900                  : 'VisbyHeavy';
+    
+    --italic-100                : 'VisbyThinItalic';
+    --italic-300                : 'VisbyLightItalic';
+    --italic-400                : 'VisbyItalic';
+    --italic-500                : 'VisbyMediumItalic';
+    --italic-600                : 'VisbySemiboldItalic';
+    --italic-700                : 'VisbyBoldItalic';
+    --italic-800                : 'VisbyExtraboldItalic';
+    --italic-900                : 'VisbyHeavyItalic';
+
+    --transition-sm             : all 0.3s ease-in-out;
+    --transition-md             : all 0.5s ease-in-out;
+}

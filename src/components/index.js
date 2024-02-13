@@ -1,0 +1,12 @@
+export { default as Header } from './header/Header';
+export { default as Footer } from './footer/Footer';
+export { default as Container } from './container/Container';
+export { default as Button } from './button/Button';
+export { default as Rounded } from './rounded/Rounded';
+export { default as Course } from './course/Course';
+export { default as Apply } from './apply/Apply';
+export { default as Scroll } from './scroll/Scroll';
+export { default as Form } from './form/Form';
+export { default as Input } from './input/Input';
+export { default as TextArea } from './input/TextArea';
+export { default as Contact } from './contact/Contact';

@@ -1,0 +1,118 @@
+// Font Import
+@font-face {
+    font-family: 'VisbyThin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyThin'), url('../assets/fonts/VisbyThin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyThinItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyThinItalic'), url('../assets/fonts/VisbyThinItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyLight'), url('../assets/fonts/VisbyLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyLightItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyLightItalic'), url('../assets/fonts/VisbyLightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyRegular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyRegular'), url('../assets/fonts/VisbyRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyItalic'), url('../assets/fonts/VisbyItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyMedium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyMedium'), url('../assets/fonts/VisbyMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyMediumItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyMediumItalic'), url('../assets/fonts/VisbyMediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbySemibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbySemibold'), url('../assets/fonts/VisbySemibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbySemiboldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbySemiboldItalic'), url('../assets/fonts/VisbySemiboldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyBold'), url('../assets/fonts/VisbyBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyBoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyBoldItalic'), url('../assets/fonts/VisbyBoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyExtrabold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyExtrabold'), url('../assets/fonts/VisbyExtrabold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyExtraboldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyExtraboldItalic'), url('../assets/fonts/VisbyExtraboldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyHeavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyHeavy'), url('../assets/fonts/VisbyHeavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'VisbyHeavyItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisbyHeavyItalic'), url('../assets/fonts/VisbyHeavyItalic.woff') format('woff');
+}
+
+// Style Import
+@import './reset';
+@import './theme';
+@import './components';
+@import './home';
