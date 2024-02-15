@@ -1,7 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'antd';
 import { Container, Rounded } from '../../../components';
 import BannerImg from '../../../assets/img/banner.jpg';
 
@@ -47,12 +47,12 @@ const About = () => {
                     </div>
                     <div className='about__content'>
                         <Row>
-                            <Col xl={6} lg={6} xs={12}>
+                            <Col xl={12} lg={12} xs={24}>
                                 <div className='about__flex'>
                                     <Rounded link='#' />
                                 </div>
                             </Col>
-                            <Col xl={6} lg={6} xs={12}>
+                            <Col xl={12} lg={12} xs={242}>
                                 <p className='section__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.</p>
                                 <div className='about__count'>
                                     <div className='about__count--item'>

@@ -9,6 +9,16 @@ const Header = () => {
 
     const [isOpen, setIsOpen] = useState(false);
 
+    const menuItems = [
+        { id: 0, label: 'Home', link: '/' },
+        { id: 1, label: 'About Us', link: '/about' },
+        { id: 2, label: 'Courses', link: '/courses' },
+        { id: 3, label: 'Facilities', link: '/facility' },
+        { id: 3, label: 'Gallery', link: '/gallery' },
+        { id: 4, label: 'News & Updates', link: '/news' },
+        { id: 5, label: 'Contact', link: '/contact' },
+    ];
+
     return (
         <header className='header'>
             <Container>
@@ -21,12 +31,13 @@ const Header = () => {
                     <div className='header__col'>
                         <div className={`header__menu ${isOpen ? 'show' : 'hide'}`}>
                             <nav className='header__nav'>
-                                <NavLink to='/' className='header__nav--link'>Home</NavLink>
-                                <NavLink to='/about' className='header__nav--link'>About Us</NavLink>
-                                <NavLink to='/course' className='header__nav--link'>Courses</NavLink>
-                                <NavLink to='/facility' className='header__nav--link'>Facilities</NavLink>
-                                <NavLink to='/news' className='header__nav--link'>News & Updates</NavLink>
-                                <NavLink to='/contact' className='header__nav--link'>Contact</NavLink>
+                                {menuItems.map((item, index) => (
+                                    <NavLink
+                                        key={index}
+                                        to={item.link}
+                                        className='header__nav--link'
+                                    >{item.label}</NavLink>
+                                ))}
                             </nav>
                         </div>
                         <button className='header__login'>

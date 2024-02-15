@@ -8,10 +8,11 @@ const Course = ({
     type,
     description,
     tags,
-    softwares
+    softwares,
+    onClick
 }) => {
     return (
-        <div className='course' key={key}>
+        <div className='course' key={key} onClick={onClick}>
             <h4 className='course__title'>{title}</h4>
             <div className='course__type'>
                 <div className='course__type--item'>

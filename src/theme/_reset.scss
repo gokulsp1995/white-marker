@@ -335,3 +335,183 @@ input, select, textarea {
         }
     }
 }
+
+// Page
+.page {
+    position: relative;
+
+    &__wrap {
+        display: block;
+        width: 100%;
+        padding: 90px 0 120px;
+        border-bottom: 1px solid var(--border-color);
+
+        @media (max-width: 1024px) {
+            padding: 30px 0 50px;
+        }
+    }
+    
+
+    &__header {
+        display: block;
+        position: relative;
+        padding-bottom: 90px;
+
+        @media (max-width: 1660px) {
+            padding-bottom: 60px;
+        }
+
+        @media (max-width: 1024px) {
+            padding-bottom: 30px;
+        }
+    }
+
+    &__title {
+        display: block;
+        font-family: var(--font-700);
+        font-size: var(--font-xl);
+        color: var(--text-dark);
+        text-transform: uppercase;
+        line-height: 1.4;
+        margin-bottom: 30px;
+
+        @media (max-width: 1660px) {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 1024px) {
+            margin-bottom: 20px;
+        }
+
+        &.text-center {
+            text-align: center;
+        }
+    }
+
+    &__text {
+        display: block;
+        font-family: var(--font-500);
+        font-size: var(--font-xs);
+        color: var(--text-middle);
+        line-height: 1.6;
+    }
+}
+
+// Library Reset
+
+// Select
+.ant-select {
+    width: 100%;
+
+    &.ant-select-lg {
+        height: 90px;
+
+        @media (max-width: 1660px) {
+            height: 60px;
+        }
+    }
+}
+
+.ant-select.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+    padding: 0 40px;
+
+    @media (max-width: 1660px) {
+        padding: 0 25px;
+    }
+}
+
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+    height: 88px;
+
+    @media (max-width: 1660px) {
+        height: 58px;
+    }
+}
+
+.ant-select .ant-select-arrow {
+    inset-inline-end: 20px;
+}
+
+.ant-select-single.ant-select-lg.ant-select-show-arrow .ant-select-selection-placeholder {
+    font-family: var(--font-500);
+    color: var(--text-dark);
+}
+
+// Input
+.ant-input-lg {
+    height: 90px;
+    padding: 0 40px;
+    font-family: var(--font-500);
+    color: var(--text-dark);
+    
+    @media (max-width: 1660px) {
+        height: 60px;
+        padding: 0 25px;
+    }
+}
+
+// Date Input
+.ant-picker-large {
+    width: 100%;
+    height: 90px;
+    padding: 0 40px;
+
+    @media (max-width: 1660px) {
+        height: 60px;
+        padding: 0 25px;
+    }
+}
+
+.ant-picker .ant-picker-input >input:placeholder-shown {
+    font-family: var(--font-500);
+    color: var(--text-dark);
+}
+
+// Collapse
+.ant-collapse-borderless >.ant-collapse-item {
+    @media (max-width: 540px) {
+        margin-bottom: 20px !important;
+    }
+}
+
+.ant-collapse>.ant-collapse-item >.ant-collapse-header {
+    padding: 35px 60px 20px;
+
+    @media (max-width: 1660px) {
+        padding: 25px 40px 10px;
+    }
+
+    @media (max-width: 540px) {
+        padding: 15px 20px 10px;
+    }
+}
+
+.ant-collapse>.ant-collapse-item >.ant-collapse-header .ant-collapse-header-text {
+    font-size: var(--font-sm);
+
+    @media (max-width: 1660px) {
+        font-size: var(--font-xs);
+    }
+}
+
+.ant-collapse.ant-collapse-icon-position-end>.ant-collapse-item >.ant-collapse-header .ant-collapse-expand-icon {
+    position: relative;
+    top: -4px;
+}
+
+.ant-collapse .ant-collapse-content>.ant-collapse-content-box {
+    padding: 0 110px 40px 75px;
+
+    @media (max-width: 1660px) {
+        padding: 0 90px 30px 55px;
+    }
+
+    @media (max-width: 540px) {
+        padding: 0 20px 20px 20px;
+    }
+
+    p {
+        font-size: var(--font-xxs);
+        line-height: 1.8;
+    }
+}

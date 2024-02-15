@@ -9,6 +9,7 @@
     --text-middle               : #4D5153;
     --text-light                : #959798;
     --text-white                : #FFFFFF;
+    --text-alt                  : #2B4248;
 
     --bg-dark                   : #000000;
     --bg-middle                 : #E6E7E9;
@@ -16,6 +17,7 @@
     --bg-white                  : #FFFFFF;
 
     --border-color              : #2C313F;
+    --border-white              : #FFFFFF;
 
     --font-st                   : 16px;
     --font-xxs                  : 18px;
@@ -31,7 +33,7 @@
         --font-xxs                  : 16px;
         --font-xs                   : 18px;
         --font-sm                   : 20px;
-        --font-md                   : 28px;
+        --font-md                   : 24px;
         --font-lg                   : 32px;
         --font-xl                   : 76px;
         --font-xxl                  : 96px;
@@ -39,6 +41,7 @@
     }
 
     @media (max-width: 992px) {
+        --font-sm                   : 16px;
         --font-xl                   : 56px;
         --font-xxl                  : 74px;
     }

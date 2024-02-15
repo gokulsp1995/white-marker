@@ -550,6 +550,8 @@
     width: 100%;
     padding: 70px;
     border: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: var(--transition-sm);
 
     @media (max-width: 1660px) {
         padding: 50px;
@@ -570,6 +572,10 @@
             border-left: 1px solid var(--border-color);
             border-top: none;
         }
+    }
+
+    &:hover {
+        background-color: var(--bg-middle);
     }
 
     &__title {
