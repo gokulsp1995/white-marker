@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowUpRight } from '@phosphor-icons/react';
 
 const Button = ({ children, onClick, type, className }) => {

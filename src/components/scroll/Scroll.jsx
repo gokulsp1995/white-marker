@@ -1,4 +1,3 @@
-import React from 'react';
 import Arrow from '../../assets/img/button-arrow.svg';
 
 const Scroll = () => {

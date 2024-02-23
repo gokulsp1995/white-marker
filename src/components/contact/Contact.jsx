@@ -1,10 +1,9 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Form, Input, TextArea, Button } from '../../components';
 
 const Contact = () => {
     return (
-        <div className='contact'>
+        <section className='contact' id='contact' data-aos='zoom-out'>
             <div className='contact__grid'>
                 <div className='contact__col'>
                     <Link to='#' className='contact__link'>WHITEMARKER, Kudu Building, Main Road, Mannarkad, Palakad, Kerala, Mannarkkad, India, Kerala</Link>
@@ -43,7 +42,7 @@ const Contact = () => {
                     </Form>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

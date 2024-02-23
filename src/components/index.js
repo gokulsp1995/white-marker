@@ -10,3 +10,5 @@ export { default as Form } from './form/Form';
 export { default as Input } from './input/Input';
 export { default as TextArea } from './input/TextArea';
 export { default as Contact } from './contact/Contact';
+export { default as ScrollTop } from './scrollTop/ScrollTop';
+export { default as Loader } from './loader/Loader';

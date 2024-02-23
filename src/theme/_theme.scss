@@ -15,6 +15,7 @@
     --bg-middle                 : #E6E7E9;
     --bg-light                  : #F6F6F6;
     --bg-white                  : #FFFFFF;
+    --bg-red                    : #FF0000;
 
     --border-color              : #2C313F;
     --border-white              : #FFFFFF;
@@ -30,6 +31,7 @@
     --font-max                  : 140px;
 
     @media (max-width: 1660px) {
+        --font-st                   : 14px;
         --font-xxs                  : 16px;
         --font-xs                   : 18px;
         --font-sm                   : 20px;
@@ -41,6 +43,7 @@
     }
 
     @media (max-width: 992px) {
+        --font-st                   : 14px;
         --font-sm                   : 16px;
         --font-xl                   : 56px;
         --font-xxl                  : 74px;

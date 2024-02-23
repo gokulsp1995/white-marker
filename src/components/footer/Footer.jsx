@@ -1,18 +1,15 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import {
-    FacebookLogo,
-    WhatsappLogo,
-    LinkedinLogo,
-    InstagramLogo,
-    TwitterLogo
-} from '@phosphor-icons/react';
 import { Container, Contact } from '../../components';
 import Logo from '../../assets/img/logo.svg';
 import Event1 from '../../assets/img/event_1.svg';
 import Event2 from '../../assets/img/event_2.svg';
 import Event3 from '../../assets/img/event_3.svg';
 import Event4 from '../../assets/img/event_4.svg';
+import FacebookLogo from '../../assets/img/facebook-icon.svg';
+import WhatsappLogo from '../../assets/img/whatsapp-icon.svg';
+import LinkedinLogo from '../../assets/img/linkedin-icon.svg';
+import InstagramLogo from '../../assets/img/instagram-icon.svg';
+import TwitterLogo from '../../assets/img/twitter-icon.svg';
 
 const Footer = () => {
     return (
@@ -57,19 +54,19 @@ const Footer = () => {
                     <span className='footer__bottom--copy'>All rights reserved ® Whitemakers.com  | Terms and Conditions Apply!</span>
                     <div className='footer__social'>
                         <Link to='#' className='footer__social--link'>
-                            <FacebookLogo size={24} />
+                            <img src={FacebookLogo} alt='Facebook' />
                         </Link>
                         <Link to='#' className='footer__social--link'>
-                            <WhatsappLogo size={24} />
+                            <img src={WhatsappLogo} alt='Whatsapp' />
                         </Link>
                         <Link to='#' className='footer__social--link'>
-                            <LinkedinLogo size={24} />
+                            <img src={LinkedinLogo} alt='Lnkedin'/>
                         </Link>
                         <Link to='#' className='footer__social--link'>
-                            <InstagramLogo size={24} />
+                            <img src={InstagramLogo} alt='Instgram'/>
                         </Link>
                         <Link to='#' className='footer__social--link'>
-                            <TwitterLogo size={24} />
+                            <img src={TwitterLogo} alt='Twitter'/>
                         </Link>
                     </div>
                 </section>

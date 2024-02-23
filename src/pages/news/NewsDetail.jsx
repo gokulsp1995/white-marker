@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container } from '../../components';
 import { Row, Col } from 'antd';
 import { NewsData } from '../../data/NewsData';

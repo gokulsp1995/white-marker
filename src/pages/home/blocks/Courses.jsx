@@ -1,20 +1,19 @@
-import React from 'react';
 import { Container, Rounded, Course, Apply } from '../../../components';
-import Photoshop from '../../../assets/img/software_one.svg';
-import Illustrator from '../../../assets/img/software_two.svg';
-import InDesign from '../../../assets/img/software_three.svg';
-import AfterEffects from '../../../assets/img/software_four.svg';
+import Photoshop from '../../../assets/img/software_1.png';
+import Illustrator from '../../../assets/img/software_2.png';
+import InDesign from '../../../assets/img/software_3.png';
+import AfterEffects from '../../../assets/img/software_4.png';
 
 const Courses = () => {
 
     const list = [
         {
             id: 0,
-            title: 'Course Title Comes Here 01',
-            duration: '1 Year',
-            type: 'Full Time',
-            description: 'Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.Lorem ipsum dolor sit amet consectetur.',
-            tags: ['Basic of Drawing', 'Visual Communication', 'Branding Communication'],
+            title: 'Whitemarker Graphic master program',
+            duration: '1 year',
+            type: 'Half Day',
+            description: 'This comprehensive graphic design course is designed for individuals seeking to develop a strong foundation in visual communication and brand communication design. Students will explore the principles and techniques of graphic design, gaining hands-on experience with industry-standard tools and software.',
+            tags: ['Basic of Drawing', 'Branding Communication', 'Visual Communication'],
             softwares: [
                 { title: 'Photoshop', src: Photoshop },
                 { title: 'Illustrator', src: Illustrator },
@@ -24,10 +23,10 @@ const Courses = () => {
         },
         {
             id: 1,
-            title: 'Course Title Comes Here 02',
-            duration: '1 Year',
+            title: 'Digital Marketing',
+            duration: '3 Months',
             type: 'Full Time',
-            description: 'Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.Lorem ipsum dolor sit amet consectetur.',
+            description: 'This dynamic Digital Marketing course is designed to equip individuals with the essential skills and knowledge needed to thrive in the rapidly evolving landscape of online marketing. Participants will explore key digital marketing concepts, tools, and strategies, gaining hands-on experience to develop effective digital campaigns.',
             tags: ['Branding Communication', 'Visual Communication'],
             softwares: [
                 { title: 'Photoshop', src: Photoshop },
@@ -41,15 +40,15 @@ const Courses = () => {
             <Container>
                 <div className='section__wrap'>
                     <div className='section__header'>
-                        <div className='section__header--col'>
+                        <div className='section__header--col' data-aos='fade-right'>
                             <span className='section__meta'>Courses</span>
                             <h3 className='section__title small'>Lorem ipsum dolor sit<br /> Course Details</h3>
                         </div>
-                        <div className='section__header--col'>
+                        <div className='section__header--col' data-aos='fade-left'>
                             <p className='section__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.</p>
                         </div>
                     </div>
-                    <div className='courses__grid'>
+                    <div className='courses__grid' data-aos='zoom-in-down'>
                         {list.map((item, index) => (
                             <Course
                                 key={index}
@@ -62,11 +61,13 @@ const Courses = () => {
                             />
                         ))}
                     </div>
-                    <div className='section__footer'>
-                        <Rounded link='#' />
+                    <div className='section__footer' data-aos='zoom-in'>
+                        <Rounded link='/courses' />
                     </div>
                 </div>
-                <Apply link='#' />
+                <div data-aos='flip-up'>
+                    <Apply link='/registration' />
+                </div>
             </Container>
         </section>
     );

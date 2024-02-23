@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { ConfigProvider } from 'antd';
 import { StyleProvider } from '@ant-design/cssinjs';
 import App from './App.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router>
       <ConfigProvider
         theme={{
           token: {
@@ -23,6 +23,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <App />
         </StyleProvider>
       </ConfigProvider>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>,
 )

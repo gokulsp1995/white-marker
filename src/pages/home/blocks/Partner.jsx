@@ -1,4 +1,3 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import { Container } from '../../../components';
@@ -99,8 +98,8 @@ const Partner = () => {
     return (
         <section className='section partner'>
             <div className='section__header align-center'>
-                <span className='section__meta'>Placement Partners</span>
-                <h3 className='section__title small'>Take a look at some of Gallery</h3>
+                <span className='section__meta' data-aos='flip-down'>Placement Partners</span>
+                <h3 className='section__title small' data-aos='flip-up'>Take a look at some of Gallery</h3>
             </div>
             <div className='partner__slider'>
                 <Swiper
@@ -108,24 +107,24 @@ const Partner = () => {
                     spaceBetween={60}
                     breakpoints={{
                         1024: {
-                            slidesPerView: 5,
-                            spaceBetween: 40
+                            slidesPerView: 7,
+                            spaceBetween: 60
                         },
                         960: {
                             slidesPerView: 5,
-                            spaceBetween: 20
+                            spaceBetween: 40
                         },
                         540: {
-                            slidesPerView: 6,
-                            spaceBetween: 20
+                            slidesPerView: 1,
+                            spaceBetween: 0
                         },
                         430: {
-                            slidesPerView: 4,
-                            spaceBetween: 20
+                            slidesPerView: 1,
+                            spaceBetween: 0
                         },
                         320: {
-                            slidesPerView: 3,
-                            spaceBetween: 10
+                            slidesPerView: 1,
+                            spaceBetween: 0
                         }
                     }}
                     loop={true}

@@ -8,6 +8,7 @@
 body {
     margin: 0;
     background-color: var(--bg-white);
+    overflow-x: hidden;
 }
 
 html {
@@ -78,19 +79,21 @@ input, select, textarea {
         max-width: 1320px;
     }
 
+    @media (max-width: 1366px) {
+        max-width: 1280px;
+    }
+
     @media (max-width: 1024px) {
         padding-left: 20px;
         padding-right: 20px;
+        max-width: none;
     }
 }
 
 // App
 .app {
     padding-top: 150px;
-
-    @media (max-width: 1660px) {
-        padding-top: 120px;
-    }
+    overflow-x: hidden;
 
     @media (max-width: 1024px) {
         padding-top: 100px;
@@ -141,6 +144,16 @@ input, select, textarea {
             }
         }
 
+        &.column {
+            flex-direction: column;
+            gap: 50px;
+            align-items: flex-start;
+
+            @media (max-width: 1660px) {
+                gap: 30px;
+            }
+        }
+
         &--col {
             width: 50%;
 
@@ -154,7 +167,11 @@ input, select, textarea {
         display: block;
         color: var(--text-dark);
         text-transform: uppercase;
-        line-height: 1.15;
+        line-height: 1;
+
+        @media (max-width: 1024px) {
+            line-height: 1.1;
+        }
         
         span {
             font-family: var(--font-700);
@@ -168,12 +185,11 @@ input, select, textarea {
         }
         
         .section__btn {
-            margin-left: 40px;
             position: relative;
             bottom: 25px;
+            margin-left: 35px;
 
             @media (max-width: 1024px) {
-                bottom: 15px;
                 margin-left: 20px;
             }
 
@@ -194,7 +210,7 @@ input, select, textarea {
 
         &.small {
             font-size: var(--font-lg);
-            font-family: var(--font-500);
+            font-family: var(--font-600);
             line-height: 1.4;
         }
 
@@ -209,7 +225,7 @@ input, select, textarea {
         font-size: var(--font-sm);
         color: var(--text-dark);
         text-transform: uppercase;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     &__meta {
@@ -241,34 +257,48 @@ input, select, textarea {
         font-family: var(--font-500);
         color: var(--text-middle);
         font-size: var(--font-xs);
-        line-height: 1.6;
-        max-width: 90%;
+        line-height: 1.8;
+
+        @media (max-width: 1660px) {
+            font-size: var(--font-xxs);
+        }
+
+        @media (max-width: 992px) {
+            max-width: none;
+            font-size: var(--font-xs);
+        }
+
+        @media (max-width: 540px) {
+            max-width: none;
+            font-size: var(--font-sm);
+        }
     }
 
     &__btn {
         display: inline-block;
         max-width: max-content;
         height: 80px;
-        padding-left: 30px;
-        padding-right: 80px;
+        padding-left: 40px;
+        padding-right: 90px;
         border-radius: 45px;
         position: relative;
         background-color: var(--primary-color);
         color: var(--primary-text);
         text-transform: uppercase;
-        font-size: var(--font-xs);
+        font-size: var(--font-xxs);
         letter-spacing: 0.5px;
-
-        @media (max-width: 1660px) {
-            height: 60px;
-            padding-right: 60px;
-            font-size: var(--font-st);
-        }
+        transition: var(--transition-sm);
 
         @media (max-width: 540px) {
             height: 40px;
             padding-left: 15px;
             padding-right: 45px;
+        }
+
+        &:hover {
+            .section__btn--arrow {
+                transform: scale(1.1);
+            }
         }
 
         &--arrow {
@@ -284,11 +314,7 @@ input, select, textarea {
             top: 10px;
             bottom: 10px;
             right: 10px;
-
-            @media (max-width: 1660px) {
-                width: 40px;
-                height: 40px;
-            }
+            transition: var(--transition-sm);
 
             @media (max-width: 540px) {
                 width: 30px;
@@ -475,11 +501,15 @@ input, select, textarea {
 }
 
 .ant-collapse>.ant-collapse-item >.ant-collapse-header {
-    padding: 35px 60px 20px;
+    padding: 35px 60px;
 
-    @media (max-width: 1660px) {
-        padding: 25px 40px 10px;
+    @media (max-width: 540px) {
+        padding: 15px 20px 10px;
     }
+}
+
+.ant-collapse>.ant-collapse-item.ant-collapse-item-active >.ant-collapse-header {
+    padding: 35px 60px 10px;
 
     @media (max-width: 540px) {
         padding: 15px 20px 10px;
@@ -497,14 +527,14 @@ input, select, textarea {
 .ant-collapse.ant-collapse-icon-position-end>.ant-collapse-item >.ant-collapse-header .ant-collapse-expand-icon {
     position: relative;
     top: -4px;
+
+    @media (max-width: 1660px) {
+        top: 4px;
+    }
 }
 
 .ant-collapse .ant-collapse-content>.ant-collapse-content-box {
     padding: 0 110px 40px 75px;
-
-    @media (max-width: 1660px) {
-        padding: 0 90px 30px 55px;
-    }
 
     @media (max-width: 540px) {
         padding: 0 20px 20px 20px;

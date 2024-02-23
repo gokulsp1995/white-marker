@@ -1,4 +1,3 @@
-import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 // Layouts
@@ -9,7 +8,7 @@ import Home from '../pages/home/Home';
 import About from '../pages/about/About';
 import CourseList from '../pages/course/CourseList';
 import CourseDetail from '../pages/course/CourseDetail';
-import Alumne from '../pages/alumne/Alumne';
+import Alumni from '../pages/alumni/Alumni';
 import News from '../pages/news/News';
 import NewsDetail from '../pages/news/NewsDetail';
 import Album from '../pages/gallery/Album';
@@ -27,7 +26,7 @@ const AppRoutes = () => {
                 <Route path='/about' element={<About />} />
                 <Route path='/courses' element={<CourseList />} />
                 <Route path='/courses/:id' element={<CourseDetail />} />
-                <Route path='/alumne' element={<Alumne />} />
+                <Route path='/alumni' element={<Alumni />} />
                 <Route path='/news' element={<News />} />
                 <Route path='/news/:id' element={<NewsDetail />} />
                 <Route path='/gallery' element={<Album />} />

@@ -1,8 +1,7 @@
-import React from 'react';
 import Intro from './blocks/Intro';
 import About from './blocks/About';
 import Courses from './blocks/Courses';
-import Alumne from './blocks/Alumne';
+import Alumni from './blocks/Alumni';
 import Portfolio from './blocks/Portfolio';
 import Gallery from './blocks/Gallery';
 import News from './blocks/News';
@@ -14,7 +13,7 @@ const Home = () => {
             <Intro />
             <About />
             <Courses />
-            <Alumne />
+            <Alumni />
             <Portfolio />
             <Gallery />
             <News />

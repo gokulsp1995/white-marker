@@ -1,12 +1,12 @@
-import React from 'react';
 import { Row, Col } from 'antd';
+import { useNavigate } from 'react-router-dom';
 import { Clock, ThumbsUp } from '@phosphor-icons/react';
 import { Container, Course, Rounded } from '../../components';
 import Faq from './Faq';
-import Photoshop from '../../assets/img/software_one.svg';
-import Illustrator from '../../assets/img/software_two.svg';
-import InDesign from '../../assets/img/software_three.svg';
-import AfterEffects from '../../assets/img/software_four.svg';
+import Photoshop from '../../assets/img/software_1.png';
+import Illustrator from '../../assets/img/software_2.png';
+import InDesign from '../../assets/img/software_3.png';
+import AfterEffects from '../../assets/img/software_4.png';
 import Spec1 from '../../assets/img/spec_1.svg';
 import Spec2 from '../../assets/img/spec_2.svg';
 import Spec3 from '../../assets/img/spec_3.svg';
@@ -16,6 +16,7 @@ import Spec6 from '../../assets/img/spec_6.svg';
 
 const CourseDetail = () => {
 
+    const navigate = useNavigate();
 
     const softwares = [
         { title: 'Photoshop', src: Photoshop },
@@ -126,12 +127,12 @@ const CourseDetail = () => {
                     </div>
                     <div className='courses__info'>
                         <Row gutter={0} align='middle'>
-                            <Col xl={12} lg={12} md={24} sm={24} xs={24}>
+                            <Col xl={12} lg={24} md={24} sm={24} xs={24}>
                                 <div className='courses__image'>
-                                    <img src='http://via.placeholder.com/720x500' alt='Title' />
+                                    <img src='https://picsum.photos/720/600.webp' alt='Title' />
                                 </div>
                             </Col>
-                            <Col xl={12} lg={12} md={24} sm={24} xs={24}>
+                            <Col xl={12} lg={24} md={24} sm={24} xs={24}>
                                 <div className='courses__info--content'>
                                     <span className='course__subtitle' style={{ marginTop: 0 }}>Time and Duration</span>
                                     <div className='course__type'>
@@ -168,10 +169,10 @@ const CourseDetail = () => {
                     </div>
                     <div className='courses__info spec'>
                         <Row gutter={0}>
-                            <Col xl={8} lg={8} md={24} sm={24} xs={24}>
+                            <Col xl={8} lg={24} md={24} sm={24} xs={24}>
                                 <h3 className='courses__info--title'>Our own speciality</h3>
                             </Col>
-                            <Col xl={16} lg={16} md={24} sm={24} xs={24}>
+                            <Col xl={16} lg={24} md={24} sm={24} xs={24}>
                                 <div className='courses__info--list'>
                                     {specList.map((item, index) => (
                                         <div className='courses__info--item' key={index}>

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Container, Course } from '../../components';
 import { CourseData } from '../../data/CourseData';
