@@ -11,8 +11,8 @@ const CourseList = () => {
             <Container>
                 <div className='page__wrap'>
                     <div className='page__header'>
-                        <h2 className='page__title'>Lorem ipsum dolor sit amet</h2>
-                        <p className='page__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat.</p>
+                        <h2 className='page__title'>UNLOCK POTENTIAL: ENRICH YOUR SKILLS TODAY</h2>
+                        <p className='page__text'>Welcome to WhitemarkerSkillshare, where creativity meets strategy! Our Graphic Design and Digital Marketing Diploma course is crafted for individuals passionate about visual communication and the dynamic realm of digital marketing. Whether you're an aspiring designer or aim to excel as a digital marketer, this comprehensive program equips you with the skills to thrive in today's competitive landscape.</p>
                     </div>
                     <div className='courses__list'>
                         {CourseData.map((item, index) => (

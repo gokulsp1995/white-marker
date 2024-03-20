@@ -12,10 +12,10 @@ const Portfolio = () => {
                     <div className='section__header'>
                         <div className='section__header--col' data-aos='fade-right'>
                             <span className='section__meta'>Students Portfolios</span>
-                            <h3 className='section__title small'>Take a look at some of<br /> our Students Work</h3>
+                            <h3 className='section__title small'>CREATIVE TALENTS ON DISPLAY:<br /> UNVEILING EXCELLENCE</h3>
                         </div>
                         <div className='section__header--col' data-aos='fade-left'>
-                            <p className='section__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.</p>
+                            <p className='section__text'>Delve into our diverse collection of student portfolios, where creativity, innovation, and talent converge to inspire and captivate</p>
                         </div>
                     </div>
                     <div className='portfolio__grid'>

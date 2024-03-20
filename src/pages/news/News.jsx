@@ -11,8 +11,8 @@ const News = () => {
             <Container>
                 <div className='page__wrap'>
                     <div className='page__header'>
-                        <h2 className='page__title'>Design Visually Create News</h2>
-                        <p className='page__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat.</p>
+                        <h2 className='page__title'>FRESH INSIGHTS: DISCOVER WHAT'S HAPPENING NOW</h2>
+                        <p className='page__text'>Explore the latest buzz and insights in our dynamic space, where every update promises to keep you engaged and informed. We bring you breaking news, noteworthy achievements, and exciting updates. From groundbreaking research to student accomplishments, faculty spotlights, and event announcements, this dynamic space is designed to keep you informed and engaged.</p>
                     </div>
                     <div className='news__grid'>
                         {NewsData.map((item, index) => (

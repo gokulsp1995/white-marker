@@ -6,17 +6,17 @@ const Intro = () => {
         <section className='section intro'>
             <Container>
                 <div className='intro__wrap'>
-                    <span
+                    {/* <span
                         className='section__subtitle'
                         data-aos='fade-down'
                         data-aos-duration='1800'
-                    >Design Visually Create Efficiently</span>
+                    >Design Visually Create Efficiently</span> */}
                     <h1
                         className='section__title large'
                         data-aos='fade-down'
                         data-aos-duration='1000'
                     >
-                        <span>Word Clanision</span> courses careers <span>chance wojerk teamese the</span> profile
+                        <span>ELEVATE YOUR CAREER WITH  </span> WHITEMARKER SKILLSHARE: <span>COURSES TO BOOST YOUR</span> profile!
                         <Link
                                 to='contact'
                                 spy={true}

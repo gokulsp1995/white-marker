@@ -52,12 +52,8 @@ const Portfolio = () => {
             <Container>
                 <div className='page__wrap'>
                     <div className='page__header'>
-                        <h2 className='page__title'>Take a look at some of our students work</h2>
-                        <p className='page__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin
-                            tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.Lorem
-                            ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra.
-                            Commodo etiam vestibulum quam Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat
-                            proin tincidunt feugiat.</p>
+                        <h2 className='page__title'>CREATIVE TALENTS ON DISPLAY: UNVEILING EXCELLENCE</h2>
+                        <p className='page__text'>Welcome to experience the remarkable creations skilfully crafted by our talented members at Whitemarker Skillshare. Immerse yourself in a visual journey through the extraordinary talents of our aspiring designers. From striking visuals to innovative concepts, this gallery is a testament to the dedication and skill of our students. Explore the intersection of art and technology as you browse through a diverse array of projects, each telling a unique story. Get ready to be inspired as our students push the boundaries of design, showcasing their passion, originality, and mastery of the craft. Join us in celebrating the power of imagination and the limitless possibilities of graphic design!</p>
                     </div>
                     <div className='portfolio__list'>
                         <Image.PreviewGroup>

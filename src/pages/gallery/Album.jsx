@@ -33,8 +33,8 @@ const Album = () => {
             <Container>
                 <div className='page__wrap'>
                     <div className='page__header'>
-                        <h2 className='page__title'>Take a look at some of our our Gallery</h2>
-                        <p className='page__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat.</p>
+                        <h2 className='page__title'>a.DYNAMIC CREATIVE ACTIVITIES SHOWCASE</h2>
+                        <p className='page__text'> In our digital realm, creativity thrives and innovation flourishes. We proudly showcase the diverse talents and achievements of our institute's community, spanning from students to faculty and beyond. Our gallery is a dynamic tapestry of artistic expression, featuring a vibrant mix of visual arts, multimedia projects, academic endeavours, and beyond</p>
                     </div>
                     <div className='album__grid'>
                         {items.map((item, index) => (

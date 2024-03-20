@@ -15,10 +15,10 @@ const Intro = () => {
                         </Col>
                         <Col xl={12} lg={24} md={24} sm={24} xs={24}>
                             <h1 className='about__intro--title' data-aos='flip-down'>
-                                CREATIVE <br/>
-                                <span>PLAYGROUND</span> <br/>
-                                FOR EVERYBODY <br/>
-                                Lorem Ipsum
+                            DESIGN EDUCATION <br/>
+                                <span>PIONEERS:</span> <br/>
+                                SHAPING  <br/>
+                                CREATIVE FUTURES
                             </h1>
                         </Col>
                     </Row>

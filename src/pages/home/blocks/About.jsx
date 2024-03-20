@@ -17,14 +17,14 @@ const About = () => {
                                 data-aos-offset='-200'
                         >
                             <span className='section__meta'>About Us</span>
-                            <h3 className='section__title small'>Design Visually<br /> Create  Efficiently</h3>
+                            <h3 className='section__title small'>DISCOVER THE LEADING EDGE<br /> OF DESIGN EDUCATION</h3>
                         </div>
                         <div
                             className='section__header--col'
                             data-aos='fade-left'
                             data-aos-offset='-200'
                         >
-                            <p className='section__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.</p>
+                            <p className='section__text'>Welcome to Whitemarker Skillshare, where creativity meets expertise. Join us to unlock your potential and redefine your professional profile</p>
                         </div>
                     </div>
                     <div
@@ -69,21 +69,21 @@ const About = () => {
                                 </div>
                             </Col>
                             <Col xl={12} lg={12} xs={242} data-aos='flip-right'>
-                                <p className='section__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.</p>
+                                <p className='section__text'>c.At Whitemarker Skillshare, we specialize in refining your creative profile. Through personalized mentorship and innovative workshops, we help you sculpt a distinctive professional identity. Join our community to elevate your career trajectory and showcase your unique talents to the world.</p>
                                 <div className='about__count'>
                                     <div className='about__count--item'>
                                         <span className='about__count--title'>
-                                            <CountUp start={0} end={100} duration={8} enableScrollSpy={true} />
-                                            +
+                                            <CountUp start={0} end={10} duration={8} enableScrollSpy={true} />
+                                            + yrs
                                         </span>
-                                        <span className='about__count--label'>100+ Creative &<br/> Futuristic</span>
+                                        <span className='about__count--label'>10+ Years Expert <br/> Guidance</span>
                                     </div>
                                     <div className='about__count--item'>
                                         <span className='about__count--title'>
-                                            <CountUp start={0} end={15} duration={10} enableScrollSpy={true} />
-                                            yr
+                                            <CountUp start={0} end={1000} duration={10} enableScrollSpy={true} />
+                                            +
                                         </span>
-                                        <span className='about__count--label'>Have Working 15+<br/> years</span>
+                                        <span className='about__count--label'>1000+ Creative <br/> Artists</span>
                                     </div>
                                 </div>
                             </Col>

@@ -22,8 +22,8 @@ const Alumni = () => {
             <Container>
                 <div className='page__wrap'>
                     <div className='page__header'>
-                        <h2 className='page__title'>Lorem ipsum dolor sit amet</h2>
-                        <p className='page__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat.</p>
+                        <h2 className='page__title'>CELEBRATING SUCCESS STORIES TOGETHER</h2>
+                        <p className='page__text'>At WhitemarkerSkillshare, our legacy of creativity flourishes through the remarkable journeys of our alumni. This page celebrates the talented individuals who have emerged from our graphic design programs, leaving an indelible mark on the world of visual communication.</p>
                     </div>
                     <div className='alumni__grid'>
                         {AlumniData.map((item, index) => (

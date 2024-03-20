@@ -13,10 +13,10 @@ const Gallery = () => {
                     <div className='section__header'>
                         <div className='section__header--col' data-aos='fade-right'>
                             <span className='section__meta'>Gallery</span>
-                            <h3 className='section__title small'>Take a look at some of<br /> our Gallery</h3>
+                            <h3 className='section__title small'>DYNAMIC CREATIVE ACTIVITIES <br /> SHOWCASE</h3>
                         </div>
                         <div className='section__header--col' data-aos='fade-left'>
-                            <p className='section__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.</p>
+                            <p className='section__text'>Dive into our Activities Gallery, a dynamic space showcasing the vibrant creativity and diverse pursuits of our talented community members</p>
                         </div>
                     </div>
                     <div className='gallery__grid'>

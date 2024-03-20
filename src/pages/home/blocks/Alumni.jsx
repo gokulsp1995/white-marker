@@ -9,10 +9,10 @@ const Alumni = () => {
                     <div className='section__header'>
                         <div className='section__header--col' data-aos='fade-right'>
                             <span className='section__meta'>Alumni</span>
-                            <h3 className='section__title small'>Lorem ipsum dolor sit<br /> amet consectetur</h3>
+                            <h3 className='section__title small'>FOREVER CONNECTED THROUGH <br /> SHARED EXPERIENCES</h3>
                         </div>
                         <div className='section__header--col' data-aos='fade-left'>
-                            <p className='section__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.</p>
+                            <p className='section__text'> Join our vibrant alumni network, connecting talented individuals, fostering collaborations, and celebrating successes within the Whitemarker Skillshare community</p>
                         </div>
                     </div>
                     <div className='alumne__block'>

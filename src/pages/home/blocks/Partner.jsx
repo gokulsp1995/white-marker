@@ -98,8 +98,8 @@ const Partner = () => {
     return (
         <section className='section partner'>
             <div className='section__header align-center'>
-                <span className='section__meta' data-aos='flip-down'>Placement Partners</span>
-                <h3 className='section__title small' data-aos='flip-up'>Take a look at some of Gallery</h3>
+                <span className='section__meta' data-aos='flip-down'>PLACEMENT PARTNERS</span>
+                <h3 className='section__title small' data-aos='flip-up'>TALENT NETWORKING: OUR TRUSTED CAREER COLLABORATORS</h3>
             </div>
             <div className='partner__slider'>
                 <Swiper

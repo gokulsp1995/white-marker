@@ -11,10 +11,10 @@ const News = () => {
                     <div className='section__header'>
                         <div className='section__header--col' data-aos='fade-right'>
                             <span className='section__meta'>News & Updates</span>
-                            <h3 className='section__title small'>Design Visually Create News</h3>
+                            <h3 className='section__title small'>FRESH INSIGHTS:  DISCOVER WHAT'S HAPPENING NOW</h3>
                         </div>
                         <div className='section__header--col' data-aos='fade-left'>
-                            <p className='section__text'>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed.</p>
+                            <p className='section__text'>Explore the latest buzz and insights in our dynamic space, where every update promises to keep you engaged and informed</p>
                         </div>
                     </div>
                     <div className='news__slider'>
